@@ -41,7 +41,7 @@ int main()
     printf("complement: %d \n", ~a );
     printf("right shift: %d \n", a>>5 );
     printf("left shift: %d \n", b<<5 );
-    printf("Size of int= %llu bytes \n", sizeof(a));
+    printf("Size of int= %lu bytes \n", sizeof(a));
     return 0;
   
 }
